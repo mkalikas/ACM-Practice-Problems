@@ -16,8 +16,8 @@ int main() {
   unsigned long long n; // length in meters
   unsigned long long m; // width in meters
   unsigned long long a; // flagstone side in meters
-  unsigned long long accross; // (n-a)/a
-  unsigned long long down; // (m-a)/a
+  unsigned long long accross; 
+  unsigned long long down;
 
   std::cin >> n >> m >> a; // standard input
 
@@ -29,8 +29,6 @@ int main() {
 
   assert((accross && down) > 0);
   assert(((accross * a) * (down * a)) >= (n * m));
-
-
 
   std::cout << accross * down << "\n";
 

@@ -9,9 +9,8 @@ void output(std::string s) {
   }
 }
 int main() {
-  int n; // 1 <= n <= 100
+  int n; 
   std::string s;
-
 
   std::cin >> n;
 
